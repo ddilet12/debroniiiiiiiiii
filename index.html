@@ -5,264 +5,205 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Debroni — Personal Blog</title>
   <meta name="description" content="Debroni — личный блог о мышлении, деньгах, онлайн-работе и жизни, которую выбираешь сам. 87.7K подписчиков в Instagram.">
-  <meta name="theme-color" content="#05070b">
+  <meta name="theme-color" content="#0a0a0a">
   <meta property="og:title" content="Debroni — Живу свои лучшие годы">
   <meta property="og:description" content="Личный блог о мышлении, деньгах и свободе в 20+.">
   <meta property="og:image" content="assets/img/hero.jpg">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <main class="page">
 
-  <div class="bg-glow" aria-hidden="true"></div>
-
-  <!-- Шапка -->
-  <header class="nav-wrap">
-    <nav class="nav glass">
-      <a href="#top" class="logo">
-        <span class="logo-name">DEBRONI</span>
-        <span class="logo-sub">PERSONAL BLOG</span>
-      </a>
-      <ul class="nav-links">
-        <li><a href="#about">Обо мне</a></li>
-        <li><a href="#content">Контент</a></li>
-        <li><a href="#lifestyle">Лайфстайл</a></li>
-        <li><a href="#collab">Сотрудничество</a></li>
-      </ul>
-      <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener" class="btn btn-outline btn-sm nav-cta">Подписаться</a>
-      <button class="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
-    </nav>
-    <div class="mobile-menu glass">
-      <a href="#about">Обо мне</a>
-      <a href="#content">Контент</a>
-      <a href="#lifestyle">Лайфстайл</a>
-      <a href="#collab">Сотрудничество</a>
-      <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener" class="btn btn-primary">Подписаться</a>
-    </div>
-  </header>
-
-  <main id="top">
-
-    <!-- Главный экран -->
+    <!-- Главный экран в рамке телефона -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-photo reveal">
-          <img src="assets/img/hero.jpg" alt="Debroni у BMW в Астане" width="1000" height="1299" fetchpriority="high">
-        </div>
-        <div class="hero-text">
-          <p class="eyebrow reveal"><span class="dot"></span> Personal blog · Астана</p>
-          <h1 class="reveal">Живу свои<br><span class="accent">лучшие годы</span></h1>
-          <p class="lead reveal">Блог о мышлении, деньгах и свободе в&nbsp;20+. Показываю на&nbsp;личном примере, как из обычной жизни прийти к&nbsp;своей: работа онлайн, капитал, квартиры и&nbsp;машина мечты. Без понтов, по&nbsp;шагам.</p>
-          <div class="hero-actions reveal">
-            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener" class="btn btn-primary">Смотреть блог</a>
-            <a href="#collab" class="btn btn-outline">Сотрудничество</a>
+      <div class="phone reveal">
+        <div class="phone-screen">
+          <img class="hero-img" src="assets/img/hero.jpg" alt="Debroni у BMW в Астане" width="1000" height="1299" fetchpriority="high">
+          <div class="hero-top">
+            <p class="kicker"><span>личный блог</span></p>
+            <h1 class="logo" aria-label="Debroni">DEBR<span class="logo-o" aria-hidden="true"></span>NI</h1>
+            <ul class="tags">
+              <li>мышление</li><li>деньги</li><li>онлайн-работа</li>
+              <li>лайфстайл</li><li>путешествия</li><li>отношения</li>
+            </ul>
           </div>
-          <div class="stats reveal">
-            <div class="stat glass"><b data-count="87.7" data-suffix="K">87.7K</b><span>подписчиков</span></div>
-            <div class="stat glass"><b data-count="245">245</b><span>публикаций</span></div>
-            <div class="stat glass"><b>RU / KZ</b><span>язык контента</span></div>
+          <div class="hero-bottom">
+            <p class="hero-slogan">Живу свои лучшие годы 💪</p>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener" class="btn">Подписаться</a>
           </div>
+          <nav class="ig-bar" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 10.5L12 3l9 7.5V21h-6v-6H9v6H3z"/></svg>
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 8v8M8 12h8"/></svg>
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M3 8h18M8 3l3 5M14 3l3 5M10 11.5v5l4.5-2.5z"/></svg>
+            <img src="assets/img/avatar.jpg" alt="">
+          </nav>
         </div>
       </div>
     </section>
 
-    <!-- Бегущая строка -->
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee-track">
-        <span>Мышление</span><i>✦</i><span>Деньги</span><i>✦</i><span>Онлайн-работа</span><i>✦</i><span>Лайфстайл</span><i>✦</i><span>Путешествия</span><i>✦</i><span>Отношения</span><i>✦</i>
-        <span>Мышление</span><i>✦</i><span>Деньги</span><i>✦</i><span>Онлайн-работа</span><i>✦</i><span>Лайфстайл</span><i>✦</i><span>Путешествия</span><i>✦</i><span>Отношения</span><i>✦</i>
+    <!-- Цифры -->
+    <section class="section">
+      <div class="stats reveal">
+        <div class="stat"><b data-count="87.7" data-suffix="K">87.7K</b><span>подписчиков</span></div>
+        <div class="stat"><b data-count="245">245</b><span>публикаций</span></div>
+        <div class="stat"><b>RU/KZ</b><span>язык</span></div>
       </div>
-    </div>
+    </section>
 
     <!-- Обо мне -->
-    <section class="section" id="about">
-      <div class="container about glass reveal">
-        <div class="about-avatar">
-          <img src="assets/img/avatar.jpg" alt="Debroni за рулём" width="480" height="480" loading="lazy">
-        </div>
-        <div class="about-text">
-          <h2 class="section-title left">Обо мне</h2>
-          <p>Меня зовут <b>Debroni</b>. Я не родился с деньгами и связями. Всё, что у меня есть сегодня, я построил сам: работаю онлайн, купил квартиры в двух городах и BMW, собрал капитал.</p>
-          <p>Дело не в удаче, а в нескольких жёстких правилах, которым я следую каждый день. В блоге честно показываю весь путь: ошибки, привычки, мышление и жизнь, в которой ты сам управляешь своим временем.</p>
-          <ul class="chips">
-            <li>💻 Работа онлайн</li>
-            <li>🏠 Квартиры в 2 городах</li>
-            <li>🚘 BMW</li>
-            <li>📈 Капитал с нуля</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Рубрики -->
     <section class="section">
-      <div class="container">
-        <h2 class="section-title reveal">О чём мой блог</h2>
-        <div class="topics">
-          <article class="topic glass reveal">
-            <div class="topic-icon">🧠</div>
-            <h3>Мышление</h3>
-            <p>Привычки, дисциплина и правила, которые меняют жизнь. «Если вам 18–30, начните формировать эти 10 привычек».</p>
-          </article>
-          <article class="topic glass reveal">
-            <div class="topic-icon">💸</div>
-            <h3>Деньги и онлайн-работа</h3>
-            <p>Как зарабатывать из любой точки, копить капитал и не сливать его на импульсивные покупки.</p>
-          </article>
-          <article class="topic glass reveal">
-            <div class="topic-icon">🌍</div>
-            <h3>Лайфстайл</h3>
-            <p>Астана, Алматы, горы, поездки и машины. Показываю, как выглядит жизнь, к которой ведут эти правила.</p>
-          </article>
-          <article class="topic glass reveal">
-            <div class="topic-icon">🔥</div>
-            <h3>Жизнь парней 20+</h3>
-            <p>Отношения, семья, окружение и честные разговоры о том, каким должен быть парень в 16 и в 25.</p>
-          </article>
-        </div>
+      <h2 class="title reveal">Обо мне:</h2>
+      <div class="about reveal">
+        <div class="about-avatar"><img src="assets/img/avatar.jpg" alt="Debroni за рулём" width="480" height="480" loading="lazy"></div>
+        <p>Меня зовут <b>Debroni</b>. Я не родился с деньгами и связями. Всё, что у меня есть сегодня, я построил сам: работаю онлайн, купил квартиры в двух городах и BMW, собрал капитал.</p>
+        <p>Дело не в удаче, а в нескольких жёстких правилах, которым я следую каждый день. В блоге честно показываю весь путь: ошибки, привычки и мышление.</p>
       </div>
     </section>
 
-    <!-- Карусель контента -->
-    <section class="section" id="content">
-      <div class="container">
-        <h2 class="section-title reveal">Популярный контент</h2>
-        <p class="section-sub reveal">Reels, которые смотрят и пересылают друзьям</p>
-      </div>
-      <div class="carousel reveal" data-carousel>
-        <button class="carousel-btn prev" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
-        <div class="carousel-stage">
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-control.jpg" alt="" loading="lazy"><span class="reel-cap">Куда делось ощущение, что ты управляешь своей жизнью?</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-5-rules.jpg" alt="" loading="lazy"><span class="reel-cap">2 квартиры и машина: не удача, а 5 жёстких правил</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-10-habits.jpg" alt="" loading="lazy"><span class="reel-cap">Если вам 18–30: 10 привычек, пока не стало поздно</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-bmw-x5.jpg" alt="" loading="lazy"><span class="reel-cap">Готов подарить жене квартиру и BMW X5. Осталось найти жену 😅</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-future-wife.jpg" alt="" loading="lazy"><span class="reel-cap">Моя будущая жена никогда не будет работать</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-5-qualities.jpg" alt="" loading="lazy"><span class="reel-cap">5 качеств, которые нужны парню от 16 до 25</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-autumn.jpg" alt="" loading="lazy"><span class="reel-cap">Уже осень: итоги года и что изменилось</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-mistakes.jpg" alt="" loading="lazy"><span class="reel-cap">Сначала ошибаешься, потом знаешь, как сделать</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-blogging.jpg" alt="" loading="lazy"><span class="reel-cap">Хочешь вести блог, но стыдно? Смотри</span>
-          </a>
-          <a class="reel glass" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <img src="assets/img/reel-travel.jpg" alt="" loading="lazy"><span class="reel-cap">Не убираться дома, а убираться из дома</span>
-          </a>
-        </div>
-        <button class="carousel-btn next" aria-label="Вперёд"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
-        <div class="carousel-dots" role="tablist"></div>
-      </div>
-    </section>
-
-    <!-- Лайфстайл -->
-    <section class="section" id="lifestyle">
-      <div class="container">
-        <h2 class="section-title reveal">Мои результаты и лайфстайл</h2>
-        <div class="gallery">
-          <figure class="reveal"><img src="assets/img/life-bmw.jpg" alt="BMW 5 серии" loading="lazy"></figure>
-          <figure class="reveal"><img src="assets/img/life-mountains.jpg" alt="В горах" loading="lazy"></figure>
-          <figure class="reveal"><img src="assets/img/life-koktobe.jpg" alt="Кок-Тобе, Алматы" loading="lazy"></figure>
-          <figure class="reveal"><img src="assets/img/life-drive.jpg" alt="За рулём в Астане" loading="lazy"></figure>
-        </div>
-        <ul class="results reveal">
-          <li>Купил BMW 5 серии</li>
-          <li>Квартиры в двух городах</li>
-          <li>Работаю онлайн и сам планирую своё время</li>
-          <li>Капитал, собранный с нуля</li>
-          <li>Путешествия по Казахстану и за границу</li>
-          <li>87.7K человек следят за моим путём</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Telegram -->
+    <!-- О чём блог: плитки с галочками -->
     <section class="section">
-      <div class="container">
-        <h2 class="section-title reveal">Будь ближе</h2>
-        <div class="channels">
-          <a class="channel glass reveal" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <span class="channel-icon"><svg viewBox="0 0 24 24"><path d="M21.5 4.5L2.9 11.7c-.9.4-.9 1.6.1 1.9l4.6 1.5 1.8 5.6c.3.8 1.3 1 1.9.4l2.6-2.5 4.9 3.6c.7.5 1.6.1 1.8-.7l3-15.3c.2-1-.8-1.9-1.9-1.4zM9.6 14.6l8.3-7.4-6.6 8.8-.3 3-1.4-4.4z"/></svg></span>
-            <span class="channel-text"><b>Канал про мышление</b><small>Разборы, привычки и мысли, которые не влезают в Reels</small></span>
-            <span class="arrow">→</span>
-          </a>
-          <a class="channel glass reveal" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
-            <span class="channel-icon"><svg viewBox="0 0 24 24"><path d="M21.5 4.5L2.9 11.7c-.9.4-.9 1.6.1 1.9l4.6 1.5 1.8 5.6c.3.8 1.3 1 1.9.4l2.6-2.5 4.9 3.6c.7.5 1.6.1 1.8-.7l3-15.3c.2-1-.8-1.9-1.9-1.4zM9.6 14.6l8.3-7.4-6.6 8.8-.3 3-1.4-4.4z"/></svg></span>
-            <span class="channel-text"><b>Туса Debroni</b><small>Закрытое комьюнити: общение, встречи и движ</small></span>
-            <span class="arrow">→</span>
-          </a>
-          <a class="channel glass reveal" href="https://www.threads.net/@debroni17" target="_blank" rel="noopener">
-            <span class="channel-icon"><svg viewBox="0 0 24 24"><path d="M16.7 11.1c-.1 0-.2-.1-.3-.1-.2-3-1.8-4.7-4.6-4.7-1.7 0-3.1.7-3.9 2l1.5 1c.6-.9 1.6-1.1 2.3-1.1 1 0 1.7.3 2.1.9.3.4.5 1 .6 1.7-.8-.1-1.7-.2-2.6-.1-2.6.1-4.3 1.7-4.2 3.8.1 1.1.6 2 1.5 2.6.8.5 1.8.8 2.8.7 1.4-.1 2.5-.6 3.2-1.6.6-.7.9-1.7 1-2.9.7.4 1.2.9 1.4 1.6.5 1.1.5 2.9-1 4.4-1.3 1.3-2.8 1.8-5.1 1.8-2.6 0-4.5-.8-5.8-2.4C4.4 17.2 3.8 15 3.8 12.3s.6-4.9 1.8-6.4C6.9 4.3 8.9 3.5 11.4 3.5c2.6 0 4.6.8 5.9 2.4.7.8 1.2 1.8 1.5 2.9l1.8-.5c-.4-1.4-1-2.6-1.9-3.7C17.1 2.6 14.6 1.6 11.5 1.6 8.3 1.6 5.9 2.6 4.2 4.7 2.7 6.5 2 9 1.9 12.3c0 3.2.8 5.7 2.3 7.5 1.7 2.1 4.2 3.1 7.3 3.1 2.8 0 4.8-.7 6.4-2.3 2.1-2.1 2.1-4.8 1.4-6.4-.5-1.2-1.4-2.1-2.6-2.7zm-4.8 4.6c-1.1.1-2.3-.4-2.3-1.5 0-.8.6-1.7 2.4-1.8h.6c.7 0 1.3.1 1.8.2-.2 2.6-1.4 3-2.5 3.1z"/></svg></span>
-            <span class="channel-text"><b>Threads: debroni17</b><small>Короткие мысли каждый день</small></span>
-            <span class="arrow">→</span>
-          </a>
+      <h2 class="title reveal">О чём блог:</h2>
+      <div class="tiles">
+        <figure class="tile reveal">
+          <div class="tile-img"><img src="assets/img/life-mountains.jpg" alt="" loading="lazy"><span class="badge">🧠</span><span class="check"></span></div>
+          <figcaption>Мышление</figcaption>
+        </figure>
+        <figure class="tile reveal">
+          <div class="tile-img"><img src="assets/img/life-drive.jpg" alt="" loading="lazy"><span class="badge">💸</span><span class="check"></span></div>
+          <figcaption>Деньги и онлайн-работа</figcaption>
+        </figure>
+        <figure class="tile reveal">
+          <div class="tile-img"><img src="assets/img/life-koktobe.jpg" alt="" loading="lazy"><span class="badge">🌍</span><span class="check"></span></div>
+          <figcaption>Лайфстайл и путешествия</figcaption>
+        </figure>
+        <figure class="tile reveal">
+          <div class="tile-img"><img src="assets/img/life-bmw.jpg" alt="" loading="lazy"><span class="badge">🔥</span><span class="check"></span></div>
+          <figcaption>Жизнь парней 20+</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Красные карточки: рубрики -->
+    <section class="section">
+      <div class="red-cards">
+        <a class="red-card reveal" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
+          <span class="red-card-sub">Рубрика про мышление:</span>
+          <b>«10 ПРИВЫЧЕК ДО 30»</b>
+          <u>Смотреть в Instagram</u>
+        </a>
+        <a class="red-card reveal" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
+          <span class="red-card-sub">Рубрика про деньги:</span>
+          <b>«5 ЖЁСТКИХ ПРАВИЛ»</b>
+          <u>Смотреть в Instagram</u>
+        </a>
+        <a class="red-card reveal" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">
+          <span class="red-card-sub">Рубрика про жизнь:</span>
+          <b>«КАКИМ ДОЛЖЕН БЫТЬ ПАРЕНЬ В 16 И В 25»</b>
+          <u>Смотреть в Instagram</u>
+        </a>
+      </div>
+    </section>
+
+    <!-- Слайдер: популярные Reels -->
+    <section class="section">
+      <h2 class="title reveal">Популярные Reels:</h2>
+      <div class="slider reveal" data-slider>
+        <span class="badge badge-corner">🔥</span>
+        <div class="slider-frame">
+          <div class="slider-track">
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-control.jpg" alt="Куда делось ощущение, что ты управляешь своей жизнью?" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-5-rules.jpg" alt="2 квартиры и машина благодаря 5 жёстким правилам" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-10-habits.jpg" alt="Если вам 18–30: 10 привычек" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-future-wife.jpg" alt="Моя будущая жена никогда не будет работать" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-5-qualities.jpg" alt="5 качеств парня от 16 до 25" loading="lazy"></a>
+          </div>
+        </div>
+        <div class="slider-nav">
+          <button class="arrow prev" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="arrow next" aria-label="Вперёд"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+      </div>
+
+      <div class="slider reveal" data-slider>
+        <span class="badge badge-corner">🚀</span>
+        <div class="slider-frame">
+          <div class="slider-track">
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-bmw-x5.jpg" alt="Готов подарить жене квартиру и BMW X5" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-autumn.jpg" alt="Уже осень: итоги" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-mistakes.jpg" alt="Сначала ошибаешься, потом знаешь как" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-blogging.jpg" alt="Хочешь вести блог, но стыдно?" loading="lazy"></a>
+            <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><img src="assets/img/reel-travel.jpg" alt="Не убираться дома, а убираться из дома" loading="lazy"></a>
+          </div>
+        </div>
+        <div class="slider-nav">
+          <button class="arrow prev" aria-label="Назад"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+          <button class="arrow next" aria-label="Вперёд"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
         </div>
       </div>
     </section>
 
-    <!-- Сотрудничество -->
-    <section class="section" id="collab">
-      <div class="container">
-        <h2 class="section-title reveal">Сотрудничество</h2>
-        <p class="section-sub reveal">Нативные интеграции для аудитории 18–30 из Казахстана, которая хочет расти</p>
-        <div class="collab">
-          <div class="collab-card glass reveal">
-            <span class="collab-num">01</span>
-            <h3>Reels-интеграция</h3>
-            <p>Нативное упоминание бренда в сценарии ролика. Живой формат без «рекламного» ощущения.</p>
-          </div>
-          <div class="collab-card glass reveal">
-            <span class="collab-num">02</span>
-            <h3>Stories</h3>
-            <p>Серия сторис со ссылкой, отметкой и личным отзывом. Быстрый трафик и доверие.</p>
-          </div>
-          <div class="collab-card glass reveal">
-            <span class="collab-num">03</span>
-            <h3>Telegram-пост</h3>
-            <p>Публикация в канале про мышление для самой вовлечённой части аудитории.</p>
-          </div>
-          <div class="collab-card glass reveal">
-            <span class="collab-num">04</span>
-            <h3>Спецпроект</h3>
-            <p>Серия контента, амбассадорство или офлайн-ивент. Обсуждаем индивидуально.</p>
-          </div>
-        </div>
-        <div class="collab-cta reveal">
-          <a href="https://ig.me/m/debroni17" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Обсудить рекламу</a>
-        </div>
+    <!-- Результаты -->
+    <section class="section">
+      <h2 class="title reveal">Мои результаты:</h2>
+      <ul class="results reveal">
+        <li>Купил BMW 5 серии</li>
+        <li>Квартиры в двух городах</li>
+        <li>Работаю онлайн и сам планирую своё время</li>
+        <li>Капитал, собранный с нуля</li>
+        <li>Путешествия по Казахстану и за границу</li>
+        <li>87.7K человек следят за моим путём</li>
+      </ul>
+    </section>
+
+    <!-- Каналы -->
+    <section class="section">
+      <h2 class="title reveal">Будь ближе:</h2>
+      <div class="links reveal">
+        <a class="link-row" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><span>🧠</span>Канал про мышление<i>→</i></a>
+        <a class="link-row" href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><span>🎉</span>Туса Debroni<i>→</i></a>
+        <a class="link-row" href="https://www.threads.net/@debroni17" target="_blank" rel="noopener"><span>💬</span>Threads: debroni17<i>→</i></a>
+      </div>
+    </section>
+
+    <!-- Вопросы -->
+    <section class="section">
+      <div class="faq reveal">
+        <details open>
+          <summary>Кто такой Debroni?</summary>
+          <p>Блогер из Астаны. Работаю онлайн, веду блог о мышлении, деньгах и жизни в 20+. Показываю на личном примере, как прийти к своим целям без понтов.</p>
+        </details>
+        <details>
+          <summary>О чём мой блог?</summary>
+          <p>Привычки и дисциплина, деньги и капитал, онлайн-работа, отношения, путешествия и жизнь, которую ты выбираешь сам.</p>
+        </details>
+        <details>
+          <summary>Как попасть в «Тусу Debroni»?</summary>
+          <p>Переходи по ссылке в блоке «Будь ближе» или напиши мне в Direct.</p>
+        </details>
+        <details>
+          <summary>Какие форматы рекламы есть?</summary>
+          <p>Reels-интеграция, серия Stories, пост в Telegram-канале и спецпроекты: амбассадорство или офлайн-ивент. Аудитория 18–30 из Казахстана, язык RU/KZ.</p>
+        </details>
+        <details>
+          <summary>Как со мной связаться?</summary>
+          <p>Удобнее всего написать в Direct Instagram <a href="https://ig.me/m/debroni17" target="_blank" rel="noopener">@debroni17</a>.</p>
+        </details>
+      </div>
+      <div class="cta reveal">
+        <a href="https://ig.me/m/debroni17" target="_blank" rel="noopener" class="btn">Написать в Direct</a>
       </div>
     </section>
 
   </main>
 
-  <!-- Подвал -->
   <footer class="footer">
-    <div class="container footer-grid">
-      <ul class="socials">
-        <li><a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg>debroni17</a></li>
-        <li><a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/></svg>Telegram</a></li>
-        <li><a href="https://www.threads.net/@debroni17" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>Threads</a></li>
-      </ul>
-      <a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Подписаться</a>
-      <p class="footer-slogan">Живу свои лучшие годы 💪</p>
-    </div>
-    <p class="copyright">© <span id="year">2026</span> Debroni. Все права защищены.</p>
+    <p><span id="year">2026</span> · Debroni<br>Все права защищены</p>
+    <p><a href="https://www.instagram.com/debroni17/" target="_blank" rel="noopener">@debroni17</a></p>
   </footer>
 
   <script src="script.js"></script>
